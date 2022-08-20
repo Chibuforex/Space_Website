@@ -1,0 +1,49 @@
+/* Navbar */
+#navbar .social {
+  display: none;
+}
+
+#navbar .logo {
+  width: 100px;
+}
+
+/* About Us */
+#about .container {
+  flex-direction: column;
+}
+
+#about .container p {
+  margin-bottom: 1rem;
+}
+
+/* What we do */
+#what {
+  height: unset;
+}
+
+#what .container {
+  flex-direction: column-reverse;
+}
+
+#what .container p {
+  margin-bottom: 1rem;
+}
+
+/* Projects */
+#projects .container {
+  grid-template-columns: 1fr;
+}
+
+#projects .container img {
+  margin: 0 auto;
+}
+
+/* Footer */
+#footer .container {
+  flex-direction: column;
+}
+
+#footer .container address,
+#footer .container p {
+  margin-bottom: 1rem;
+}
